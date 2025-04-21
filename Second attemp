@@ -1,0 +1,16 @@
+import org.bukkit.Bukkit;
+import org.bukkit.plugin.java.JavaPlugin;
+
+public class MinecraftHtmlPlugin extends JavaPlugin {
+
+    @Override
+    public void onEnable() {
+        Bukkit.getLogger().info("MinecraftHtmlPlugin has been enabled!");
+        // Initialize HTML integration here
+    }
+
+    @Override
+    public void onDisable() {
+        Bukkit.getLogger().info("MinecraftHtmlPlugin has been disabled!");
+    }
+}
